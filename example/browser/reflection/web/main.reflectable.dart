@@ -3,7 +3,7 @@
 
 import "dart:core";
 import 'main.dart' as prefix1;
-import 'package:mustache/mustache.dart' as prefix0;
+import 'package:relected_mustache/mustache.dart' as prefix0;
 
 // ignore:unused_import
 import "package:reflectable/mirrors.dart" as m;

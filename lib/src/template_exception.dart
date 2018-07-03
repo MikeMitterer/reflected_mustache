@@ -1,6 +1,6 @@
 library mustache.template_exception;
 
-import 'package:mustache/mustache.dart' as m;
+import 'package:relected_mustache/mustache.dart' as m;
 
 class TemplateException implements m.TemplateException {
   TemplateException(this.message, this.templateName, this.source, this.offset);

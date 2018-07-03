@@ -1,8 +1,12 @@
-# Mustache templates
+# Mustache templates - Reflected-Version
+
+This is a clone of Greg Lowes [mustace-package](https://github.com/xxgreg/mustache)
+
+----------------------------------------------------------------------------------------------------
+**This 'reflected'-package uses reflection instead of mirrors wiche makes it Dart 2.x/Browser compatible**  
+----------------------------------------------------------------------------------------------------
 
 A Dart library to parse and render [mustache templates](https://mustache.github.io/).
-
-[![Build Status](https://travis-ci.org/xxgreg/mustache.svg)](https://travis-ci.org/xxgreg/mustache) [![Coverage Status](https://coveralls.io/repos/xxgreg/mustache/badge.svg)](https://coveralls.io/r/xxgreg/mustache)
 
 See the [mustache manual](http://mustache.github.com/mustache.5.html) for detailed usage information.
 

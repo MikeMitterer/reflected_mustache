@@ -2,7 +2,7 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
 import 'dart:html' as dom;
-import 'package:mustache/mustache.dart';
+import 'package:relected_mustache/mustache.dart';
 
 import 'main.reflectable.dart';
 

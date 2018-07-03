@@ -1,10 +1,10 @@
 import 'package:test/test.dart';
 
-import 'package:mustache/src/node.dart';
-import 'package:mustache/src/parser.dart';
-import 'package:mustache/src/scanner.dart';
-import 'package:mustache/src/template_exception.dart';
-import 'package:mustache/src/token.dart';
+import 'package:relected_mustache/src/node.dart';
+import 'package:relected_mustache/src/parser.dart';
+import 'package:relected_mustache/src/scanner.dart';
+import 'package:relected_mustache/src/template_exception.dart';
+import 'package:relected_mustache/src/token.dart';
 
 import 'parser_test.reflectable.dart';
 

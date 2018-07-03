@@ -1,4 +1,4 @@
-import 'package:mustache/mustache.dart';
+import 'package:relected_mustache/mustache.dart';
 
 main() {
   var template = new Template('{{ author.name }}');

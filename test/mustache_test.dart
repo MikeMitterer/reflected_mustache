@@ -1,7 +1,7 @@
 library mustache_test;
 
 import 'package:test/test.dart';
-import 'package:mustache/mustache.dart';
+import 'package:relected_mustache/mustache.dart';
 
 import 'mustache_test.reflectable.dart';
 

@@ -2,7 +2,7 @@
 // https://github.com/dart-lang/reflectable.
 
 import "dart:core";
-import 'package:mustache/mustache.dart' as prefix0;
+import 'package:relected_mustache/mustache.dart' as prefix0;
 
 // ignore:unused_import
 import "package:reflectable/mirrors.dart" as m;
@@ -11,8 +11,18 @@ import "package:reflectable/src/reflectable_transformer_based.dart" as r;
 // ignore:unused_import
 import "package:reflectable/reflectable.dart" show isTransformed;
 
-final _data = {const prefix0.MustacheMirrorsUsedAnnotation(): new r.ReflectorData(<m.TypeMirror>[], <m.DeclarationMirror>[], <m.ParameterMirror>[], <Type>[], 0, {}, {}, null, [])};
-
+final _data = {
+  const prefix0.MustacheMirrorsUsedAnnotation(): new r.ReflectorData(
+      <m.TypeMirror>[],
+      <m.DeclarationMirror>[],
+      <m.ParameterMirror>[],
+      <Type>[],
+      0,
+      {},
+      {},
+      null,
+      [])
+};
 
 final _memberSymbolMap = null;
 
