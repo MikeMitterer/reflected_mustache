@@ -3,7 +3,7 @@
 This is a clone of Greg Lowes [mustace-package](https://github.com/xxgreg/mustache)
 
 ----------------------------------------------------------------------------------------------------
-**This 'reflected'-package uses reflection instead of mirrors wiche makes it Dart 2.x/Browser compatible**  
+**This 'reflected'-package uses reflection instead of mirrors wich makes it Dart 2.x/Browser compatible**  
 ----------------------------------------------------------------------------------------------------
 
 Due to heavy development on Dart, reflectable and reflected_mustache   
