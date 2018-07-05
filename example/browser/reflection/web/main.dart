@@ -2,7 +2,7 @@
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
 import 'dart:html' as dom;
-import 'package:relected_mustache/mustache.dart';
+import 'package:reflected_mustache/mustache.dart';
 
 import 'main.reflectable.dart';
 
@@ -39,5 +39,8 @@ void main() {
     final String content = template.renderString(language);
     final dom.Element child = new dom.Element.html(content);
 
-  dom.querySelector('#output').append(child);
+  dom.querySelector('#content').append(child);
+
+  dom.querySelector("body").classes
+      .removeWhere((final String selector) => selector == "loading");
 }

@@ -1,6 +1,6 @@
 library mustache.lambda_context;
 
-import 'package:relected_mustache/mustache.dart' as m;
+import 'package:reflected_mustache/mustache.dart' as m;
 
 import 'node.dart';
 import 'parser.dart' as parser;

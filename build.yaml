@@ -7,5 +7,7 @@ targets:
           exclude:
           - example/**.dart
           - lib/**.dart
+          - test/mustache_specs.dart
+          - test/parser_test.dart
         options:
           formatted: true

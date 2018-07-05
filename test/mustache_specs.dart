@@ -9,9 +9,9 @@ import 'dart:io';
 import 'dart:convert';
 import 'package:test/test.dart';
 
-import 'package:relected_mustache/mustache.dart';
+import 'package:reflected_mustache/mustache.dart';
 
-import 'mustache_specs.reflectable.dart';
+//import 'mustache_specs.reflectable.dart';
 
 String render(source, values, {partial}) {
   var resolver = null;
@@ -25,7 +25,7 @@ String render(source, values, {partial}) {
 }
 
 main() {
-  initializeReflectable();
+  //initializeReflectable();
 
   defineTests();
 }

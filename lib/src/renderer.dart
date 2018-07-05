@@ -3,7 +3,7 @@ library mustache.renderer;
 //@MirrorsUsed(metaTargets: const [m.MustacheMirrorsUsedAnnotation])
 //import 'dart:mirrors';
 
-import 'package:relected_mustache/mustache.dart' as m;
+import 'package:reflected_mustache/mustache.dart' as m;
 import 'package:reflectable/reflectable.dart';
 
 import 'lambda_context.dart';

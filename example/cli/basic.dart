@@ -1,4 +1,4 @@
-import 'package:relected_mustache/mustache.dart';
+import 'package:reflected_mustache/mustache.dart';
 
 main() {
   var source = '''

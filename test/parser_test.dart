@@ -1,15 +1,15 @@
 import 'package:test/test.dart';
 
-import 'package:relected_mustache/src/node.dart';
-import 'package:relected_mustache/src/parser.dart';
-import 'package:relected_mustache/src/scanner.dart';
-import 'package:relected_mustache/src/template_exception.dart';
-import 'package:relected_mustache/src/token.dart';
+import 'package:reflected_mustache/src/node.dart';
+import 'package:reflected_mustache/src/parser.dart';
+import 'package:reflected_mustache/src/scanner.dart';
+import 'package:reflected_mustache/src/template_exception.dart';
+import 'package:reflected_mustache/src/token.dart';
 
-import 'parser_test.reflectable.dart';
+//import 'parser_test.reflectable.dart';
 
 main() {
-    initializeReflectable();
+  //  initializeReflectable();
 
   group('Scanner', () {
     test('scan text', () {
