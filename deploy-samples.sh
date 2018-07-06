@@ -49,8 +49,8 @@ fi
 #------------------------------------------------------------------------------
 # BASIS
 
-declare -a SAMPLES=(
-    "example/browser/reflection"
+declare -a EXAMPLES=(
+    "${EXAMPLE_FOLDER}/browser/reflection"
 )
 
 #------------------------------------------------------------------------------
@@ -65,7 +65,7 @@ declare -a SAMPLES=(
 usage() {
     echo
     echo "Usage: ${APPNAME} [ options ]"
-    echo -e "\t-l | --list                Shows all samples"
+    echo -e "\t-l | --list                Lists all examples from '${YELLOW}${EXAMPLE_FOLDER}'${NC}-folder"
     echo -e "\t-d | --deploy              Creates 'deploy'-dir for Dart"
     echo -e "\t-p | --publish [--force]   Publish samples to AWS/S3 (only on day ${PUBLISH_ONLY_ON_DAY})"
     echo -e "\t                           use --force to ignore Monday as publishing day"
@@ -76,15 +76,15 @@ CMDLINE=${1:-}
 OPTION=${2:-}
 case "${CMDLINE}" in
     -l|list|-list|--list)
-        listSamples "${SAMPLES[@]}"
+        listSamples "${EXAMPLES[@]}"
     ;;
 
     -d|deploy|-deploy|--deploy)
-        deploySamples "${SAMPLES[@]}"
+        deploySamples "${EXAMPLES[@]}"
     ;;
 
     -p|publish|-publish|--publish)
-        publishSamples "${SAMPLES[@]}"
+        publishSamples "${EXAMPLES[@]}"
     ;;
 
     -h|-help|--help|*)

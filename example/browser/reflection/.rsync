@@ -11,6 +11,7 @@
 #   - cd ~/website
 #   - docker-compose restart
 #
-# URL: http://reflected_mustache.example.mikemitterer.at/
-#
-:~/website/data/example/reflected_mustache/
+
+RSYNC_DESTINATION=":~/website/data/example/reflected_mustache/"
+EXAMPLE_URL="http://reflected_mustache.example.mikemitterer.at/"
+
