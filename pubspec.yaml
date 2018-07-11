@@ -12,6 +12,8 @@ dependencies:
   reflectable: #^2.0.0
     path: /Volumes/Daten/DevLocal/DevDart/reflectable
 
+  logging: '>=0.11.3 <1.0.0'
+
 dev_dependencies:
   test: any
 

@@ -3,7 +3,8 @@ import 'package:reflected_mustache/mustache.dart';
 main() {
   var t = new Template('{{ foo }}');
   var lambda = (LambdaContext ctx) => 'bar';
-  var output = t.renderString({'foo': lambda}); // bar
+
+  String output = t.renderString({'foo': lambda}); // bar
   print(output);
 
   t = new Template('{{# foo }}hidden{{/ foo }}');

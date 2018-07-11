@@ -11,6 +11,6 @@ main() {
 
   var t = new Template('{{> partial-name }}', partialResolver: resolver);
 
-  var output = t.renderString({'foo': 'bar'}); // bar
+  final String output = t.renderString({'foo': 'bar'}); // bar
   print(output);
 }

@@ -13,7 +13,7 @@ main() {
 
   var template = new Template(source, name: 'template-filename.html');
 
-  var output = template.renderString({'names': [
+  final String output = template.renderString({'names': [
       {'firstname': 'Greg', 'lastname': 'Lowe'},
       {'firstname': 'Bob', 'lastname': 'Johnson'}
   ]});
