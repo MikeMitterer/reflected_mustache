@@ -39,6 +39,15 @@ main() {
           expect(output, "abc-Mike Mitterer-def");
       }); // end of 'KeyValue-Pair' test
 
+      test('> replace key/value with map', () {
+          final String output = parse('abc-{{name.firstname}}/{{name.lastname}}-def')
+              .renderString(
+              new MyKVPair("name", { "firstname" : "Mike", "lastname" : "Mitterer" })
+          );
+
+          expect(output, "abc-Mike/Mitterer-def");
+      }); // end of 'KeyValue-Pair' test
+
       test('List', () {
           final String output = parse('{{#section}}_{{var}}_{{/section}}').renderString({
               "section": [
