@@ -4,3 +4,4 @@ packages
 /test/spec
 /.idea
 /.packages
+*.reflectable.dart

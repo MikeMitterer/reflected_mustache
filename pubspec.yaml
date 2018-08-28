@@ -6,18 +6,18 @@ description: Mustache template library
 homepage: https://github.com/MikeMitterer/relected_mustache
 
 environment:
-  sdk: '>=1.8.0 <2.0.0'
+  sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  reflectable: #^2.0.0
-    path: /Volumes/Daten/DevLocal/DevDart/reflectable
+  reflectable: ^2.0.0
+    # path: /Volumes/Daten/DevLocal/DevDart/reflectable
 
   logging: '>=0.11.3 <1.0.0'
 
 dev_dependencies:
   test: any
 
-  build_runner: ^0.8.10
-  build_test: ^0.10.0
-  build_web_compilers: ^0.4.0
+  build_runner: any
+  build_test: any
+  build_web_compilers: any
                      
