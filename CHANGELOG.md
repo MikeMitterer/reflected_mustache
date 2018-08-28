@@ -9,6 +9,9 @@ Mustache template library
 ### Docs
 * Updated [bdc91cc](https://github.com/mikemitterer/reflected_mustache/commit/bdc91ccbbe5fc3806a466e652fa3002f7e78fd9d)
 
+### Refactor
+* Revmoved travis.sh [ea04588](https://github.com/mikemitterer/reflected_mustache/commit/ea045883b9771fd02b6b2b2896c0ca97ffe22b51)
+
 ## [v1.0](http://github.com/mikemitterer/reflected_mustache/compare/v0.2...v1.0) - 2018-07-11
 
 ### Feature
