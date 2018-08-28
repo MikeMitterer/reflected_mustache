@@ -1,5 +1,5 @@
 name: reflected_mustache
-version: 1.0.1
+version: 1.0.2
 
 author: Mike Mitterer <office@mikemitterer.at>
 description: Mustache template library
