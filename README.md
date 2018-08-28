@@ -6,11 +6,6 @@ This is a clone of Greg Lowes [mustace-package](https://github.com/xxgreg/mustac
 **This 'reflected'-package uses reflection instead of mirrors wich makes it Dart 2.x/Browser compatible**  
 ----------------------------------------------------------------------------------------------------
 
-Due to heavy development on Dart, reflectable and reflected_mustache   
-this package needs **Dart VM version: 2.0.0-dev.63.0**
-
-For more - check out this [issue](https://github.com/dart-lang/reflectable/issues/136)  
-
 ## Example
 
 Live on [http://reflected_mustache.example.mikemitterer.at/](http://reflected_mustache.example.mikemitterer.at/)  

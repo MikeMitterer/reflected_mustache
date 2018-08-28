@@ -1,40 +1,26 @@
-# CHANGELOG
+# Change Log for reflected_mustache
+Mustache template library
 
-## 0.2.5
+## [Unreleased](http://github.com/mikemitterer/reflected_mustache/compare/v1.0...HEAD)
 
-* Remove MustacheFormatException
-* Allow templates to specify default delimiters. Thanks to Joris Hermans.
-* Fix #24: renderString shrinks multiple newlines to just one (Thanks to John Ryan for the repro).
+### Feature
+* Works under Dart II and with reflectable 2.0.x [03b67f5](https://github.com/mikemitterer/reflected_mustache/commit/03b67f5b9c0b074093e3239bcad089902b42f7a2)
 
-## 0.2.4
+## [v1.0](http://github.com/mikemitterer/reflected_mustache/compare/v0.2...v1.0) - 2018-07-11
 
-* Fix #23 failure if tag or comment contains "="
+### Feature
+* Mustache supports Key/Value pairs [7e8b1dd](https://github.com/mikemitterer/reflected_mustache/commit/7e8b1ddb3438ad3a8ed5b6c2b7ba28c1fd29e06d)
 
-## 0.2.3
+### Test
+* KVPair with HashMap [927fd69](https://github.com/mikemitterer/reflected_mustache/commit/927fd690cdf2730ac3d2a1c491438e1cac7a0a25)
 
-* Change handling of lenient sections to match python mustache implementation.
+## [v0.2](http://github.com/mikemitterer/reflected_mustache/compare/v0.2) - 2018-07-05
 
-## 0.2.2
+### Feature
+* Dart 2.x ready, works with reflectable [ab012d3](https://github.com/mikemitterer/reflected_mustache/commit/ab012d395a9f22cfe0477d711765955c9d37277d)
 
-* Fix MirrorsUsed tag for using mirrors on dart2js.
-* Clean up dead code.
+### Bugs
+* build.jenkins was missing [5fcdb8b](https://github.com/mikemitterer/reflected_mustache/commit/5fcdb8b728168e04937df2f0e74addb113f5576b)
 
-## 0.2.1
 
-* Added new methods to LambdaContext.
-
-## 0.2
-
-* Deprecated parse() function - please update your code to use new Template(source).
-* Deprecated MustacheFormatException - please update your code to use TemplateException.
-* Breaking change: Template.render and Template.renderString methods no longer
-  take the optional lenient and htmlEscapeValues. These should now be passed to
-  the Template constructor.
-* Fully passing all mustache spec tests.
-* Added support for MirrorsUsed.
-* Implemented partials. #11
-* Implemented lambdas. #4
-* Implemented change delimiter tag.
-* Add template name parameter, and show this in error messages.
-* Allow whitespace at begining of tags. #10
-
+This CHANGELOG.md was generated with [**Changelog for Dart**](https://pub.dartlang.org/packages/changelog)
