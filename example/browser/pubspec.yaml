@@ -6,12 +6,12 @@ description: An absolute bare-bones web app.
 #homepage: https://www.example.com
 
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+  sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
 
   reflected_mustache:
-    path: ../../../
+    path: ../..
 
 dev_dependencies:
 
