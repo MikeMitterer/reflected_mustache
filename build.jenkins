@@ -30,6 +30,7 @@ pipeline {
                 ansiColor('xterm') {
                     sh 'pub run build_runner test --delete-conflicting-outputs'
                     sh 'pub run build_runner test --delete-conflicting-outputs -- -p chrome'
+                    }
             }
         }
 
