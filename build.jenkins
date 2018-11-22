@@ -25,9 +25,9 @@ pipeline {
         stage('Test') {
             steps {
                 ansiColor('xterm') {
-                    sh 'pub run test test/unit'
-                    sh 'pub run test test/unit -p chrome'
-                    sh 'pub run test test/integration -p chrome'
+                    sh 'pub run test --delete-conflicting-outputs test/unit'
+                    sh 'pub run test --delete-conflicting-outputs test/unit -p chrome'
+                    sh 'pub run test --delete-conflicting-outputs test/integration -p chrome'
                 }
             }
         }
