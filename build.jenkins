@@ -17,8 +17,11 @@ pipeline {
             steps {
                 ansiColor('xterm') {
                     sh 'dartanalyzer lib/'
-                    sh 'dartanalyzer test/'
-                    sh 'dartanalyzer example/browser/reflection/web/'
+
+                    // Funkt nicht weil einige File
+                    // aufgrund von reflectable fehlen
+                    // sh 'dartanalyzer test/'
+                    // sh 'dartanalyzer example/browser/reflection/web/'
                 }
             }
         }
