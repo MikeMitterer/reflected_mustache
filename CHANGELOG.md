@@ -6,6 +6,9 @@ Mustache template library
 ### Feature
 * Works under Dart II and with reflectable 2.0.x [03b67f5](https://github.com/mikemitterer/reflected_mustache/commit/03b67f5b9c0b074093e3239bcad089902b42f7a2)
 
+### Bugs
+* Browser-Sample hat old version constraint [5a40094](https://github.com/mikemitterer/reflected_mustache/commit/5a400948be7c22b4309b7fc49313ba653930a53e)
+
 ### Docs
 * Updated [bdc91cc](https://github.com/mikemitterer/reflected_mustache/commit/bdc91ccbbe5fc3806a466e652fa3002f7e78fd9d)
 
