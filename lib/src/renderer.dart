@@ -295,7 +295,8 @@ class Renderer extends Visitor {
         if (object is List) {
             try {
                 final int index = int.parse(name);
-                return (_integerTag.hasMatch(name) ? object[index] : noSuchProperty);
+                return ((_integerTag.hasMatch(name) && object.length > index)
+                  ? object[index] : noSuchProperty);
             }
             on FormatException {
                 return noSuchProperty;
